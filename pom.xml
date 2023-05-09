@@ -42,6 +42,7 @@
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
                 <configuration>
+                    <imageName>app</imageName>
                     <buildArgs>--static</buildArgs>
                     <!--                    <buildArgs>-H:+StaticExecutableWithDynamicLibC</buildArgs>-->
                 </configuration>
